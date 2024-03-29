@@ -12,7 +12,7 @@ public class AvlBvgs {
 	
 	
 	public void appendAvlBvgs(String addStr, int idx) {
-		avlBvgs.append(idx+"."+addStr+" ");
+		avlBvgs.append(" "+idx+"."+addStr+" ");
 	}
 	
 	public void incMaxChs(){
